@@ -1,0 +1,13 @@
+.footer {
+    grid-area: footer;
+    background-color: #24262B;
+    padding: 80px 0;
+        .contenedor {
+            max-width: 1200px;
+            margin: 0 auto;
+            .footerfila {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+}
